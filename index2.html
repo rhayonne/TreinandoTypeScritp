@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 18pt;
+        }
+
+        div#principal {
+            align-content: center;
+            margin: 0 auto;
+            width: 80%;
+            background: cornflowerblue;
+        }
+
+        div#divCal {
+            margin: 0 auto;
+            margin: 20px 0px 0px 0px;
+        }
+
+        input#text1, input#res {
+            margin: 20px 0px 0px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="principal" class="">
+        <div id=" divMsg">
+            <input type="text" id="text1">
+            <input type="button" value="Envoier" id="btnEnvoier" onclick="msg()">
+        </div>
+        <div id="divCal">
+            <input type="text" id="num1" placeholder="Isirez un chiffre">
+            <input type="text" id="num2" placeholder="Insirez un chiffre">
+            <input type="button" value="Calculer" id="btnCalculer" onclick="calculer()">
+            <br>
+            <input type="text" id="res" placeholder="">
+
+        </div>
+    </div>
+
+
+    <script src="/scripts/index2.js"></script>
+</body>
+
+</html>

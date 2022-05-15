@@ -1,7 +1,0 @@
---- > Installer le node.JS
-    sudo apt install node
---- > Installer Type Script
-        --> intaller npm
-            sudo apt install npm
-    npm install -g typescript (installarion globale
-    )
